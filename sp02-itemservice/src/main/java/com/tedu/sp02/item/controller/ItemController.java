@@ -26,6 +26,7 @@ public class ItemController {
 	@Value("${server.port}")
 	private int port;
 	
+	//另外一个人在这里要修改代码
 	@GetMapping("/{orderId}")
 	public JsonResult<List<Item>> getItems(@PathVariable String orderId) throws InterruptedException {
 		log.info("server.port="+port+", orderId="+orderId);
