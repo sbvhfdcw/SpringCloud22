@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
-public class ItemController {
+public class ItemController123456 {
 	@Autowired
 	private ItemService itemService;
 	
